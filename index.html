@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+
+<head>
+    <meta charset="utf-8">
+
+    <script src="./index.js"></script>
+
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+    <link rel="preload" as="image" href="_assets/images/1777296625-logo-navigatinsleiste-potsdam-typo.webp" fetchpriority="high">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="theme-color" content="">
+    <title>Spielbank Potsdam — Casinoabend mit Roulette, Black Jack und Automaten</title>
+    <meta name="description"
+          content="Erleben Sie die Spielbank Potsdam mit Roulette, Black Jack, rund 100 Spielautomaten, Bars, Aktionen, Gutscheinen und stilvolle">
+    <link rel="canonical" href="https://spielbank-potsdam-casino.com">
+    <meta property="og:title" content="Spielbank Potsdam — Casinoabend mit Roulette, Black Jack und Automaten">
+    <meta property="og:description"
+          content="Erleben Sie die Spielbank Potsdam mit Roulette, Black Jack, rund 100 Spielautomaten, Bars, Aktionen, Gutscheinen und stilvolle">
+    <meta property="og:url" content="https://spielbank-potsdam-casino.com">
+    <meta property="og:site_name" content="Spielbank Potsdam — Casinoabend mit Roulette, Black Jack und Automaten">
+    <meta property="og:locale" content="de-DE">
+    <meta property="og:image" content="_assets/images/1777296686-iiyi.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="spielbank-potsdam-casino.com">
+    <meta name="twitter:title" content="Spielbank Potsdam — Casinoabend mit Roulette, Black Jack und Automaten">
+    <meta name="twitter:description"
+          content="Erleben Sie die Spielbank Potsdam mit Roulette, Black Jack, rund 100 Spielautomaten, Bars, Aktionen, Gutscheinen und stilvolle">
+    <meta name="twitter:image" content="_assets/images/1777296686-iiyi.webp">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <link rel="icon" href="_assets/images/1777296696-cropped-bbsb-bildmarke-pos-32x32.webp" type="image/x-icon" sizes="16x16">
+    <meta name="language" content="de-DE">
+
+    <link rel="apple-touch-icon" href="_assets/images/1777296562-cropped-bbsb-bildmarke-pos-32x32.webp" sizes="96x96">
+    <link rel="icon" href="_assets/images/1777296562-cropped-bbsb-bildmarke-pos-32x32.webp" type="image/webp" sizes="192x192">
+
+    <link rel="preload" href="_assets/images/1777296723-iiyi.webp" as="image" fetchpriority="high">
+
+    <link rel="alternate" hreflang="x-default" href="https://spielbank-potsdam-casino.com" />
+    <link rel="alternate" hreflang="de" href="https://spielbank-potsdam-casino.com" />
+</head>
+
+<body>
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="minus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#855300"
+                d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 32 32"
+>
+    <symbol id="globe-icon" viewBox="0 0 32 32">
+        <path
+                fill="#12451A"
+                d="M32.032 16c0-8.501-6.677-15.472-15.072-15.969-0.173-0.019-0.346-0.032-0.523-0.032-0.052 0-0.104 0.005-0.156 0.007-0.093-0.002-0.186-0.007-0.281-0.007-8.84 0-16.032 7.178-16.032 16.001s7.192 16.001 16.032 16.001c0.094 0 0.188-0.006 0.281-0.008 0.052 0.002 0.104 0.008 0.156 0.008 0.176 0 0.349-0.012 0.523-0.032 8.395-0.497 15.072-7.468 15.072-15.969zM29.049 21.151c-0.551-0.16-1.935-0.507-4.377-0.794 0.202-1.381 0.313-2.84 0.313-4.357 0-1.196-0.069-2.354-0.197-3.469 3.094-0.37 4.45-0.835 4.54-0.867l-0.372-1.050c0.695 1.659 1.080 3.478 1.080 5.386 0 1.818-0.352 3.555-0.987 5.151zM8.921 16c0-1.119 0.074-2.212 0.21-3.263 1.621 0.127 3.561 0.222 5.839 0.243v6.939c-2.219 0.021-4.114 0.111-5.709 0.234-0.22-1.319-0.34-2.715-0.34-4.154zM16.967 2.132c2.452 0.711 4.552 4.115 5.492 8.628-1.512 0.12-3.332 0.209-5.492 0.229v-8.857zM14.971 2.156v8.832c-2.136-0.021-3.965-0.109-5.502-0.226 0.96-4.457 3.076-7.836 5.502-8.606zM14.971 21.913l0 7.929c-2.263-0.718-4.256-3.705-5.293-7.719 1.492-0.11 3.253-0.189 5.292-0.21zM16.967 29.868l-0-7.955c2.061 0.020 3.814 0.102 5.288 0.217-1.019 4.067-3 7.076-5.288 7.738zM16.967 19.92l0-6.939c2.291-0.021 4.218-0.118 5.818-0.25 0.131 1.053 0.203 2.147 0.203 3.268 0 1.442-0.116 2.84-0.329 4.16-1.575-0.128-3.462-0.219-5.692-0.24zM28.588 9.81c-0.302 0.094-1.564 0.453-4.094 0.751-0.564-2.998-1.584-5.561-2.91-7.412 3.048 1.325 5.535 3.697 7.005 6.661zM11.213 2.831c-1.632 1.873-2.963 4.568-3.691 7.754-2.265-0.245-3.623-0.534-4.166-0.665 1.585-3.27 4.407-5.836 7.856-7.088zM2.614 11.787c0.385 0.104 1.841 0.467 4.549 0.766-0.155 1.107-0.24 2.26-0.24 3.447 0 1.509 0.136 2.96 0.383 4.334-2.325 0.251-3.755 0.552-4.396 0.706-0.607-1.566-0.944-3.264-0.944-5.041 0-1.467 0.228-2.883 0.649-4.213zM3.784 22.886c0.727-0.154 2.029-0.39 3.956-0.591 0.759 2.803 1.993 5.175 3.473 6.874-3.16-1.148-5.79-3.398-7.429-6.282v0zM21.583 28.849c1.195-1.665 2.14-3.907 2.728-6.525 1.982 0.227 3.226 0.494 3.853 0.652-1.5 2.596-3.808 4.669-6.581 5.873z">
+        </path>
+    </symbol>
+</svg>
+
+<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="star-icon" viewBox="0 0 32 31">
+        <path d="M10.0431 24.5932L15.8898 21.0667L21.7365 24.6396L20.2052 17.9577L25.3559 13.5031L18.5811 12.8999L15.8898 6.58913L13.1985 12.8535L6.42371 13.4567L11.5744 17.9577L10.0431 24.5932ZM15.8898 25.4285L8.187 30.0687C7.84672 30.2853 7.49096 30.3781 7.11975 30.3471C6.74853 30.3162 6.42371 30.1925 6.1453 29.9759C5.86688 29.7594 5.65034 29.489 5.49566 29.1648C5.34099 28.8406 5.31005 28.4768 5.40286 28.0734L7.44456 19.3034L0.623417 13.4103C0.314068 13.1319 0.121034 12.8145 0.0443157 12.4581C-0.0324028 12.1017 -0.00951111 11.754 0.112991 11.415C0.235493 11.0759 0.421103 10.7975 0.669819 10.5797C0.918536 10.362 1.25882 10.2227 1.69067 10.1621L10.6927 9.37327L14.1729 1.11366C14.3276 0.742438 14.5676 0.464023 14.8931 0.278414C15.2185 0.0928044 15.5507 0 15.8898 0C16.2288 0 16.5611 0.0928044 16.8865 0.278414C17.2119 0.464023 17.452 0.742438 17.6067 1.11366L21.0869 9.37327L30.0889 10.1621C30.522 10.224 30.8623 10.3632 31.1098 10.5797C31.3572 10.7963 31.5428 11.0747 31.6666 11.415C31.7903 11.7553 31.8138 12.1036 31.7371 12.46C31.6604 12.8163 31.4667 13.1331 31.1562 13.4103L24.335 19.3034L26.3767 28.0734C26.4695 28.4756 26.4386 28.8394 26.2839 29.1648C26.1292 29.4902 25.9127 29.7606 25.6343 29.9759C25.3559 30.1912 25.0311 30.315 24.6598 30.3471C24.2886 30.3793 23.9329 30.2865 23.5926 30.0687L15.8898 25.4285Z" fill="#855300"/>
+    </symbol>
+</svg>
+
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="plus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#855300"
+                d="M228 128a12 12 0 0 1-12 12h-76v76a12 12 0 0 1-24 0v-76H40a12 12 0 0 1 0-24h76V40a12 12 0 0 1 24 0v76h76a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="33"
+        height="32"
+        viewBox="0 0 33 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="play-icon" viewBox="0 0 33 32">
+        <path
+                d="M16.8334 0.0786133C7.9606 0.0786133 0.767578 7.20678 0.767578 15.9998C0.767578 24.7929 7.9606 31.921 16.8334 31.921C25.7061 31.921 32.8992 24.7929 32.8992 15.9998C32.8992 7.20678 25.7061 0.0786133 16.8334 0.0786133ZM22.3861 16.8438L14.3532 21.8192C14.1907 21.9197 14.0059 21.9703 13.821 21.9703C13.6536 21.9703 13.4859 21.929 13.3342 21.8454C13.015 21.67 12.8169 21.3372 12.8169 20.9752V11.0244C12.8169 10.6625 13.015 10.3296 13.3342 10.1543C13.6533 9.97788 14.0436 9.98857 14.3532 10.1805L22.3861 15.1559C22.6796 15.3381 22.858 15.6568 22.858 15.9998C22.858 16.3428 22.6796 16.6616 22.3861 16.8438Z"
+                fill="#12451A"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="information-outline" viewBox="0 0 20 20">
+        <path
+                d="M9 7H11V5H9V7ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0ZM9 15H11V9H9V15Z"
+                fill="#ffffff"
+        />
+    </symbol>
+</svg>
+
+<div class="wrapper">
+    <header class="header" id="top">
+        <div class="headerBlock">
+            <div class="headerLogoContainer"><a href="https://spielbank-potsdam-casino.com" aria-label="Main page"><img class="header__logo logo"
+                                                                                                     src="_assets/images/1777296625-logo-navigatinsleiste-potsdam-typo.webp" alt="Spielbank Potsdam Logo" /></a></div>
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" target="_blank" href="casino.html?id=example-offer-id"
+                                         aria-label="Registrieren" id="navSignUp"> Registrieren </a></li>
+                <li class="nav__item nav__itemLarge"><a class="nav__link nav__linkLarge" target="_blank"
+                                                        href="casino.html?id=example-offer-id" aria-label="Jetzt spielen" id="navPlayNow"> Jetzt spielen </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <section class="heroContainer">
+            <div class="hero">
+                <div class="heroBlock block">
+                    <div class="heroGroup">
+                        <div class="heroTextGroup">
+                            <p class="heroText heroTextDesktop">Exklusives Willkommensangebot von</p>
+                            <p class="heroText heroTextMobile">Exklusives Willkommensangebot von</p>
+                            <p class="heroText heroTextBonus" id="bonusText"></p>
+                        </div><a target="_blank" class="heroLink" id="bonusLink" href="/" aria-label="Spiel starten"><span
+                            class="heroButton btn btn--large">Bonus sichern</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="heroUnder">
+                <h1 class="heroText heroMainTitle">Spielbank Potsdam — Roulette, Black Jack, Spielautomaten und Bar</h1>
+            </div>
+        </section>
+        <div class="bonusesCircleContainer">
+            <section class="topCasino">
+                <div class="container">
+                    <div class="topCasinoBlock block">
+                        <h2 class="topCasinoTitle title"><span>Top-Casino <span id="countryName"></span></span>
+                        </h2>
+                        <div class="topCasinoGroup" id="casinoCardContainer">
+                            <!-- Casino cards will be dynamically inserted here --></div><button
+                            class="topCasinoButton btn btn--large" id="showMoreButton"> Alle Casino </button>
+                    </div>
+                </div>
+            </section>
+            <section class="bonusDetails" id="bonuses">
+                <div class="container">
+                    <div class="bonusDetailsBlock block">
+                        <h2 class="bonusDetailsTitle title"><span>Bonusdetails</span></h2>
+                        <div class="bonusDetailsGroup">
+                            <div class="bonusTable">
+                                <div class="bogradientContainer">
+                                    <div class="bonusTableRow bonusTableHeader">
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusHeaderCasino">Casino</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusDetailsWelcome">Boni</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText">Frei Spins</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusHeaderTextSpins">Free Spins</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText">Mehr Infos</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusClaimBonus">Erhalten</p>
+                                        </div>
+                                    </div>
+                                </div><!-- Bonus rows will be dynamically inserted here -->
+                                <div id="bonusTableRows"></div>
+                            </div>
+                        </div><button class="bonusDetailsButton btn btn--large" id="refreshButton"> Aktualisieren
+                    </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="advantagesCircleContainer">
+            <section class="advantages">
+                <div class="container">
+                    <div class="advantagesBlock block">
+                        <div class="advantagesDescription">
+                            <h2 class="advantagesTitle title">Vorteile</h2>
+                            <ul class="advantagesList">
+                                <li class="providersGroup">In der Spielbank Potsdam verbinden wir echtes Casinoflair mit persönlichem Service, Livespiel und modernen Automaten.</li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Roulette mit Einsatz schon ab 1 €.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Black Jack bereits ab 2 €.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Rund 100 moderne Spielautomaten.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Aktionsangebote mit attraktiven Spielvorteilen.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Klassisches Spiel in stilvollem Ambiente.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Freier Eintritt für erwachsene Gäste.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Bar, Snacks und Service vor Ort.</p>
+                                </li>
+                                <li class="providersGroup">Unsere Spielbank ist ideal für einen spontanen Besuch, einen besonderen Abend oder ein gemeinsames Erlebnis mit Drinks, Snacks und wechselnden Aktionen.</li>
+                            </ul><a class="advantagesLink" id="advantagesLink" target="_blank" href="/" aria-label="Mehr erfahren"><span
+                                class="advantagesButton btn btn--large">Mehr erfahren</span></a>
+                        </div>
+                        <div class="advantagesMobile">
+                            <h2 class="advantagesTitle title advantagesAppTitle">Spielbank Potsdam App</h2><img
+                                class="advantagesMobilePhone" src="_assets/images/1777296753-bbsb.webp" title="Spielbank Potsdam Mobile"
+                                alt="Spielbank Potsdam App" />
+                            <div class="advantagesStoreGroup"><a href="/" id="appStoreLink" aria-label="Play game"
+                                                                 target="_blank"><img class="advantagesStore" width="181" height="53"
+                                                                                      src="./assets/images/advantages/app-store.webp" alt="iOs App " title="Spielbank Potsdam App"/></a><a
+                                    href="/" id="googlePlayLink" aria-label="Play game" target="_blank"><img
+                                    class="advantagesStore" width="181" height="54"
+                                    src="./assets/images/advantages/google-play.webp" alt="android App Spielbank Potsdam App" title="Spielbank Potsdam App" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="games" id="games">
+                <div class="container">
+                    <div class="gamesBlock block">
+                        <h2 class="gamesTitle title"><span>Beliebte Spiele</span></h2>
+                        <div class="gamesGroup" id="gamesContainer"><!-- Games will be dynamically inserted here -->
+                        </div><a target="_blank" class="gamesLink" id="allGamesLink" href="/" aria-label="Alle Spiele"><span
+                            class="gamesButton btn btn--large">Alle Spiele</span></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Über das Spielbank Potsdam</h2>
+                        <div class="historyGroup">
+                            <div class="historyColumn">
+                                <div class="historyText">
+                                    <p class="historyDescription">In der Spielbank Potsdam setzen wir auf echtes Spielgefühl, klare Einsätze und ein stilvolles Ambiente. Unsere Spielbank überzeugt mit Livespiel, modernen Automaten und regelmäßigen Aktionsformaten.</p>
+                                    <ul class="historyList">
+                                        <li class="historyItem">Roulette ab 1 €.</li>
+                                        <li class="historyItem">Black Jack bis 200 €.</li>
+                                        <li class="historyItem">Aktion: 15 € → 20 €.</li>
+                                    </ul>
+                                    <p class="historyDescription">In der Spielbank Potsdam schaffen wir ein besonderes Erlebnis aus klassischem Spiel, moderner Unterhaltung und stilvollem Ausgehen. Unsere Spielbank verbindet historisches Flair mit einer angenehmen, gepflegten Atmosphäre. Wir begrüßen Gäste, die Roulette, Black Jack oder Automatenspiel in einem echten Casinoambiente erleben möchten. </p>
+                                </div>
+                            </div>
+                            <div class="historyColumn"><img class="historyImage"
+                                                            src="_assets/images/1777296765-mac-bbsb.webp" alt="History" title="Spielbank Potsdam Desktop"/></div>
+                        </div>
+                        <p class="historyDescription">Bei uns stehen persönlicher Service, klare Abläufe und ein komfortabler Besuch im Mittelpunkt. Wer zum ersten Mal zu uns kommt, findet eine offene Atmosphäre und auf Wunsch hilfreiche Erklärungen zu den Spielen. An unseren Bars lässt sich der Abend entspannt begleiten, ob mit einem Drink, einem Snack oder einer kurzen Pause zwischen den Spielen. Für Gruppen und besondere Anlässe bieten wir einen passenden Rahmen mit Erlebnischarakter. Unsere Spielbank eignet sich für einen spontanen Besuch ebenso wie für einen geplanten Abend. Wir möchten, dass jeder Aufenthalt sich hochwertig, lebendig und angenehm anfühlt. Die Spielbank Potsdam steht für Casinoatmosphäre, Unterhaltung und persönliche Gastfreundschaft.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Spielbank Potsdam: Öffnungszeiten, Zahlungsmethoden und Treueprogramm</h2>
+                        <div class="historyDescription"><h3 style = "font-weight: bold;font-size: 32px;">
+Spielbank Potsdam — ein stilvoller Abend in unserer Spielbank
+</h3>
+<p>
+In der Spielbank Potsdam verbinden wir klassisches Casinoambiente mit modernem Komfort, persönlichem Service und echter Abendunterhaltung. Unser Haus bietet eine besondere Atmosphäre, in der historische Architektur, gepflegte Räume und lebendige Spielmomente zusammenkommen. Der Automatenbereich ist täglich von 11:00 bis 03:00 Uhr geöffnet und eignet sich ideal für einen flexiblen Besuch im eigenen Rhythmus. Das Klassische Spiel beginnt am Abend: Roulette startet täglich ab 18:00 Uhr, Black Jack täglich ab 19:00 Uhr. Unsere Bars begleiten den Aufenthalt mit Getränken, Snacks und Service am Platz; die Bar im Automatenbereich öffnet ab 11:00 Uhr, die Bar im Klassischen Spielbereich ab 18:00 Uhr. Die Küche ist täglich ab 18:00 Uhr geöffnet und macht den Besuch bei uns auch kulinarisch angenehm. Für Gruppen, Geburtstage und besondere Anlässe bieten wir individuell gestaltbare Arrangements, Gutscheine und Erlebnisformate. Unsere zentrale Lage passt perfekt zu einem Abendprogramm mit Hotelaufenthalt, Dinner, Kultur oder Spaziergang. Über das Jahr hinweg gestalten wir Aktionen, Specials und saisonale Highlights, die den Casinobesuch abwechslungsreich machen. In der Spielbank Potsdam erleben Gäste Spiel, Bar, Events und Gastfreundschaft in einem hochwertigen Rahmen. Wir möchten, dass jeder Besuch bei uns komfortabel, stilvoll und besonders bleibt.
+</p>
+<br>
+<table style="width: 100%; border-collapse: collapse; margin: 20px auto; font-family: sans-serif; color: #ffffff;font-size:14px">
+  <thead>
+    <tr style="background-color: #855300;">
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Zone</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Tage</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Zeit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Auto&shy;maten&shy;
+bereich</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">täglich</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">11:00–03:00 Uhr</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Zusätz&shy;liche Auto&shy;maten im oberen Bereich</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">täglich</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab 18:00 Uhr</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Roulette</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">täglich</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab 18:00 Uhr</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Black Jack</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">täglich</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab 19:00 Uhr</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Klassis&shy;ches Spiel</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Sonntag–Donner&shy;stag</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">18:00–02:00 Uhr</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Klassis&shy;ches Spiel</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Freitag, Samstag und vor Feier&shy;tagen</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">18:00–03:00 Uhr</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h3 style = "font-weight: bold;font-size: 32px;">
+Spielbank Potsdam — Service, Zahlung und Gewinnauszahlung
+</h3>
+<p>
+In der Spielbank Potsdam legen wir großen Wert auf aufmerksamen Service, klare Abläufe und eine angenehme Gästebetreuung. Unser Team begleitet den Besuch professionell, beantwortet Fragen zu den Spielbereichen und hilft Gästen, sich schnell zurechtzufinden. Wer Roulette oder Black Jack neu kennenlernen möchte, kann auf Wunsch eine persönliche Spielerklärung erhalten. So schaffen wir eine Atmosphäre, in der Einsteiger und erfahrene Gäste ihren Abend sicher, entspannt und gut informiert genießen können.
+</p>
+<br>
+<p>
+Die Hauptsprache in unserer Spielbank ist Deutsch, und unsere Mitarbeitenden achten auf eine verständliche, freundliche und respektvolle Kommunikation. Gerade im Klassischen Spiel sind klare Ansagen, ruhige Abläufe und präzise Erklärungen wichtig. Wir möchten, dass sich Gäste bei jedem Schritt gut begleitet fühlen, vom Empfang über die Spielauswahl bis zum Besuch an der Bar. Unser Service verbindet Casinoroutine mit persönlicher Aufmerksamkeit.
+</p>
+<br>
+<p>
+In der Spielbank Potsdam wird in Euro gespielt. Vor Ort akzeptieren wir Barzahlung und Gutscheine, die je wir Barzahlung und Gutscheine, die je nach Angebot als Jetons oder Spielkredite eingesetzt werden können. Ein Geldautomat befindet sich direkt im Gebäude und macht den Besuch besonders unkompliziert. Für den Spielbetrieb ist Bargeld die zentrale und praktische Zahlungsform, während Gutscheine eine attraktive Möglichkeit für Geschenke, Gruppenbesuche und besondere Abende bieten.
+</p>
+<br>
+<p>
+Gewinne werden je nach Spielbereich über die Kasse, über Jetons oder automatisch im jeweiligen Spielsystem abgewickelt. Beim Multiroulette werden Gewinne direkt dem Platz am Automaten gutgeschrieben, was den Ablauf schnell und komfortabel macht. Im Klassischen Spiel erfolgt die Auszahlung transparent über Jetons und die zuständigen Kassenabläufe. Für reguläre Gäste werden Glücksspielgewinne in der Regel ohne Steuerabzug ausgezahlt; besondere professionelle Konstellationen sollten individuell mit fachlicher Beratung geprüft werden.
+</p>
+<br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+Spielbank Potsdam — Besuchsregeln und komfortable Anreise
+</h3>
+<p>
+In der Spielbank Potsdam begrüßen wir Gäste, die einen stilvollen, sicheren und angenehmen Casinoabend erleben möchten. Der Eintritt in unsere Spielbank ist frei und der Zutritt ist für erwachsene Gäste mit gültigem Personalausweis oder Reisepass möglich. Wir achten auf eine gepflegte Atmosphäre, deshalb passt ordentliche Kleidung besonders gut zu unserem Haus. Im Automatenbereich ist gepflegte Freizeitkleidung ideal. Für das Klassische Spiel empfehlen wir einen eleganteren Auftritt mit Sakko, Hemd oder Poloshirt, langen Hosen und geschlossenen Schuhen. Kopfbedeckungen wie Caps oder Mützen werden im Spielbereich nicht getragen, ausgenommen sind religiöse oder medizinische Gründe. Für Jacken, Mäntel und größere Taschen stehen passende Garderobenmöglichkeiten zur Verfügung. Auf beiden Ebenen bieten wir separate Raucherbereiche mit eigenem Spielangebot. Unsere Räume sind klar organisiert, gut erreichbar und auf einen komfortablen Besuch ausgelegt. Mit dem Auto erreichen Gäste uns bequem, und in der näheren Umgebung stehen Parkmöglichkeiten zur Verfügung. Auch mit öffentlichen Verkehrsmitteln ist unsere Spielbank gut angebunden. Wir möchten, dass der Besuch bereits bei der Ankunft entspannt beginnt.
+</p>
+<br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Zutritt
+</h4>
+ <ul>
+            <li>• Der Eintritt in die Spielbank Potsdam ist frei.</li>
+            <li>• Der Zutritt ist ab 18 Jahren möglich.</li>
+            <li>• Ein gültiger Personalausweis oder Reisepass ist erforderlich.</li>
+            <li>• Der Besuch ist auch ohne Spielteilnahme möglich, etwa für Bar, Atmosphäre und Unterhaltung.</li>
+        </ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Dresscode
+</h4>
+ <ul>
+            <li>• Im Automatenbereich passt gepflegte Freizeitkleidung ideal.</li>
+            <li>• Im Klassischen Spiel empfehlen wir Sakko, Hemd oder Poloshirt.</li>
+            <li>• Lange Hosen und geschlossene Schuhe runden den eleganten Casinoauftritt ab.</li>
+            <li>• Kopfbedeckungen werden nicht getragen, außer aus religiösen oder medizinischen Gründen.</li>
+        </ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Komfort im Haus
+</h4>
+ <ul>
+            <li>• Separate Raucherbereiche stehen auf beiden Ebenen zur Verfügung.</li>
+            <li>• Garderobenmöglichkeiten erleichtern den Besuch mit Jacken, Mänteln und größeren Taschen.</li>
+            <li>• Unser Team unterstützt Gäste bei Fragen zu Spiel, Service und Orientierung.</li>
+            <li>• Die Atmosphäre bleibt gepflegt, respektvoll und angenehm für alle Gäste.</li>
+        </ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Anreise und Parken
+</h4>
+ <ul>
+            <li>• Unsere Spielbank liegt zentral und ist bequem erreichbar.</li>
+            <li>• In der näheren Umgebung befinden sich Parkmöglichkeiten.</li>
+            <li>• Anfallende Parkgebühren können gemäß den Bedingungen der Spielbank erstattet werden.</li>
+            <li>• Mit öffentlichen Verkehrsmitteln erreichen Gäste uns komfortabel und gehen nur wenige Minuten zu Fuß.</li>
+        </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+Spielbank Potsdam — Vorteile, Aktionen und besondere Gästeangebote
+</h3>
+<p>
+In der Spielbank Potsdam gestalten wir Gästebindung über regelmäßige Aktionen, Gutscheine, Gruppenpakete und persönlichen Service. Unser Vorteilskonzept ist bewusst klar, greifbar und direkt mit dem Erlebnis vor Ort verbunden. Gäste profitieren von Aktionsformaten, bei denen der Besuch noch abwechslungsreicher wird. Ein bekanntes Beispiel ist der Glückspaket-Tag: Für 15 € erhalten Gäste 20 € für das Automatenspiel in Promokrediten oder für das Klassische Spiel in Glücksjetons. Für Gruppen, Geburtstage und Junggesell:innenabschiede bieten wir Pakete ab 35 € pro Person mit Spielguthaben, Verzehrgutschein und Begrüßungsgetränk. Gutscheine mit frei wählbarem Wert können als Jetons oder Spielkredite eingesetzt werden. Einsteiger profitieren zusätzlich von einer kostenlosen Spielerklärung zu Roulette oder Black Jack, abhängig vom Gästeaufkommen. Wir setzen auf unkomplizierte Vorteile, die direkt im Casinoabend spürbar werden. Einzelne Aktionen können je nach Datum, Verfügbarkeit und Anlass variieren. Für private Feiern, Firmenabende und besondere Anlässe entwickeln wir passende Besuchsformate. So wird der Aufenthalt in der Spielbank Potsdam zu einem Erlebnis mit Spiel, Service, Bar und Atmosphäre. Wir möchten Gästen bei jedem Besuch ein besonderes Gefühl von Wertschätzung und Unterhaltung bieten.
+</p>
+<br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Teilnahmebedingungen
+</h4>
+ <ul>
+            <li>• Der Zutritt und die Teilnahme an Spielangeboten sind ab 18 Jahren möglich.</li>
+            <li>• Ein gültiger Personalausweis oder Reisepass ist erforderlich.</li>
+            <li>• Aktionen finden direkt vor Ort in unserer Spielbank statt.</li>
+            <li>• Einzelne Angebote gelten nach Verfügbarkeit und zu den jeweiligen Aktionsbedingungen.</li>
+            <li>• Gutscheine können im Rahmen der Casinoregeln als Jetons oder Spielkredite genutzt werden.</li>
+        </ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Vorteilsstufen nach Besuchsart
+</h4>
+ <ul>
+            <li>• Erstbesuch: freier Eintritt, Orientierung im Haus und auf Wunsch Spielerklärung.</li>
+            <li>• Aktionsbesuch: Teilnahme an Formaten wie 15 € Einsatz für 20 € Spielvorteil.</li>
+            <li>• Gruppenbesuch: Pakete ab 35 € pro Person mit Spielguthaben, Verzehrgutschein und Drink.</li>
+            <li>• Feierbesuch: individuelle Arrangements für Geburtstag, JGA oder Firmenabend.</li>
+            <li>• Gutscheinbesuch: frei wählbarer Gutscheinwert für Jetons oder Automatenspielkredite.</li>
+        </ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Boni und Vorteile
+</h4>
+ <ul>
+            <li>• 20 € für 15 € beim Glückspaket-Tag: nutzbar für Automatenspiel oder Klassisches Spiel.</li>
+            <li>• 20 € Spielguthaben im Gruppenpaket: ein attraktiver Start in den Casinoabend.</li>
+            <li>• 10 € Verzehrgutschein: ideal für Drinks, Snacks und eine angenehme Pause.</li>
+            <li>• Begrüßungscocktail: ein stilvoller Auftakt für ausgewählte Gruppenangebote.</li>
+            <li>• Überraschung für Geburtstagskind oder Hauptperson beim JGA: ein persönliches Highlight.</li>
+            <li>• Kostenlose Spielerklärung: verständlicher Einstieg in Black Jack oder Roulette.</li>
+            <li>• Gutschein mit Wunschwert: flexible Geschenkidee für einen besonderen Besuch.</li>
+        </ul><br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="">
+            <div class="container">
+                <div class="sprovidersBlock block">
+                    <h2 class="sprovidersTitle title"> Softwareanbieter </h2>
+                    <div class="sprovidersGroup" id="providersContainer">
+                        <!-- Provider images will be dynamically inserted here --></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Unterhaltung und Gaming im Spielbank Potsdam</h2>
+                        <div class="historyDescription"><h3 style = "font-weight: bold;font-size: 32px;">
+Spielbank Potsdam — Aktionen, Spielvorteile und besondere Angebote
+</h3>
+<p>
+In der Spielbank Potsdam schaffen wir regelmäßig zusätzliche Gründe für einen Besuch: Spielaktionen, Themenabende, saisonale Highlights und besondere Gruppenangebote. Unsere Aktionen sind direkt mit dem Erlebnis vor Ort verbunden und machen den Casinoabend noch abwechslungsreicher. Ein zentrales Angebot ist der Glückspaket-Tag, bei dem 15 € zu 20 € Spielvorteil werden. Gäste können diesen Vorteil für das Automatenspiel in Promokrediten oder für das Klassische Spiel in Glücksjetons nutzen. Für Gruppen bieten wir Arrangements ab 35 € pro Person mit Spielguthaben, Verzehrgutschein, Begrüßungsgetränk und Spielerklärung. Geburtstagsgäste profitieren von einem besonderen Rahmen und einer zusätzlichen Überraschung für das Geburtstagskind. Auch Junggesell:innenabschiede lassen sich bei uns mit Spiel, Bar und Feieratmosphäre verbinden. Gutscheine mit Wunschwert machen den Casinobesuch zu einem flexiblen Geschenk. Über das Jahr hinweg gestalten wir Monatsaktionen, Feiertagsspecials und Themenformate. Dazu zählen Formate wie das Spielbank-Quiz, „Die Acht, die lacht!“, Mädelsabend und besondere Aktionen zu saisonalen Anlässen. Wir verbinden Spiel, Drinks, Service und Atmosphäre zu einem Abend mit Erlebnischarakter. Unser Ziel ist ein Besuch, der sich lebendig, hochwertig und besonders anfühlt.
+</p>
+<br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Spielaktionen
+</h4>
+ <ul>
+            <li>• Glückspaket-Tag — 15 € zahlen und 20 € Spielvorteil erhalten.</li>
+            <li>• Promokredite für Automatenspiel: ideal für einen dynamischen Start an modernen Geräten.</li>
+            <li>• Glücksjetons für Klassisches Spiel: passend für Roulette oder Black Jack.</li>
+            <li>• Spielbank-Quiz: Unterhaltung, Wissen und Casinoatmosphäre in einem Format.</li>
+            <li>• „Die Acht, die lacht!“: ein Aktionsformat mit spielerischem Charakter.</li>
+        </ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Gruppen- und Feierpakete
+</h4>
+ <ul>
+            <li>• Geburtstagspaket ab 35 € pro Person mit 20 € Spielguthaben.</li>
+            <li>• 10 € Verzehrgutschein im Paket: ideal für Drinks und Snacks.</li>
+            <li>• Begrüßungscocktail: ein stilvoller Auftakt für den gemeinsamen Abend.</li>
+            <li>• Spielerklärung zu Black Jack oder Roulette: verständlicher Einstieg für Gruppen.</li>
+            <li>• Überraschung für das Geburtstagskind: persönliches Extra für den Anlass.</li>
+        </ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Saisonale Highlights
+</h4>
+ <ul>
+            <li>• Ostern: thematische Aktionen für einen besonderen Frühjahrsbesuch.</li>
+            <li>• Weihnachten: festliche Formate für Gruppen, Teams und gemeinsame Abende.</li>
+            <li>• Freitag, der 13.: ein passender Anlass für ein besonderes Spielbank-Erlebnis.</li>
+            <li>• Mädelsabend: geselliger Abend mit Drinks, Spiel und Atmosphäre.</li>
+        </ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Gutscheine
+</h4>
+ <ul>
+            <li>• Gutschein mit Wunschwert: flexibel als Jetons oder Spielkredite einsetzbar.</li>
+            <li>• Geschenkidee ab 18 Jahren: ideal für Erlebnisgeschenke statt klassischer Präsente.</li>
+            <li>• Einlösbar für einen besonderen Besuch: passend für Einzelgäste, Paare oder Gruppen.</li>
+        </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+Spielbank Potsdam — beliebte Spiele in unserer Spielbank
+</h3>
+<p>
+In der Spielbank Potsdam bieten wir eine attraktive Kombination aus Klassischem Spiel und modernem Automatenspiel. Unsere Gäste können den Spielstil wählen, der am besten zu ihrem Abend passt. Im Klassischen Spiel sind Roulette und Black Jack besonders beliebt, weil sie echtes Casinoflair, Live-Atmosphäre und persönliche Spannung verbinden. Roulette begeistert mit klaren Setzmöglichkeiten, der ikonischen Kugel und dem besonderen Moment jeder Drehung. Black Jack überzeugt durch Kartenspannung, Entscheidungsmomente und die Nähe zum Spielgeschehen. Im Automatenbereich erleben Gäste ein breites Angebot moderner Geräte mit unterschiedlichen Themen und Spielabläufen. Mit Herstellern wie EGT, Merkur und Novomatic setzen wir auf Vielfalt und zeitgemäße Unterhaltung. Besonders interessant ist auch Multiroulette, die elektronische Roulette-Variante mit echtem Kessel und bequemer Bedienung per Touchscreen. Wer neu bei uns ist, kann auf Wunsch eine verständliche Spielerklärung erhalten. So bleibt der Einstieg angenehm und der Abend gut strukturiert. Jede Spielart ist bei uns Teil eines Gesamterlebnisses aus Service, Bar, Atmosphäre und Unterhaltung. Wir möchten Gästen ein Casinoerlebnis bieten, das klassisch, modern und komfortabel zugleich ist.
+</p>
+<br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Klassisches Spiel
+</h4>
+ <ul>
+            <li>• Roulette: der berühmte Casinoklassiker mit Einsätzen auf Zahlen, Farben und Chancen.</li>
+            <li>• Black Jack: beliebtes Kartenspiel mit Spannung, Entscheidungen und Nähe zum Spieltisch.</li>
+            <li>• Livespiel: authentische Atmosphäre mit Croupiers, Jetons und klassischem Ablauf.</li>
+        </ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Automatenspiel
+</h4>
+ <ul>
+            <li>• Rund 100 Spielautomaten: moderne Geräte mit vielfältigen Themen und Spielrhythmen.</li>
+            <li>• EGT, Merkur und Novomatic: bekannte Hersteller für abwechslungsreiches Automatenspiel.</li>
+            <li>• Zusätzliche Automaten im oberen Bereich: mehr Auswahl am Abend.</li>
+        </ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Multiroulette
+</h4>
+ <ul>
+            <li>• Elektronisches Roulette: klassisches Spielprinzip mit echtem Kessel.</li>
+            <li>• Touchscreen-Bedienung: Einsätze werden bequem direkt am Platz gewählt.</li>
+            <li>• Automatische Gewinnbuchung: Gewinne werden direkt dem Platz am Multiroulette gutgeschrieben.</li>
+        </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+Spielbank Potsdam — Mindesteinsätze und Höchsteinsätze
+</h3>
+<p>
+In der Spielbank Potsdam setzen wir auf klare und verständliche Einsatzstrukturen. Roulette beginnt bereits bei 1 €, Black Jack bei 2 €. So können Gäste den Casinoabend nach eigenem Spielstil gestalten, vom ersten Kennenlernen bis zum intensiveren Besuch im Klassischen Spiel. Der Automatenbereich ergänzt das Angebot mit modernen Geräten und flexiblem Spielrhythmus.
+</p>
+<br>
+<table style="width: 100%; border-collapse: collapse; margin: 20px auto; font-family: sans-serif; color: #ffffff;font-size:14px">
+  <thead>
+    <tr style="background-color: #855300;">
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Spiel oder Bereich</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Mindest&shy;einsatz</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Höchst&shy;einsatz</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Roulette</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">1 €</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">100 € auf Plein</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Black Jack</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">2 €</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">200 €</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Multi&shy;roulette</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">je nach Platz und Einstellung</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">gemäß Auto&shy;matenein&shy;stellung</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Auto&shy;maten&shy;spiel</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">je nach Gerät</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">gemäß Gerät</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Glück&shy;spaket-Tag</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">15 € Teilna&shy;hme</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">20 € Spiel&shy;vorteil</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Gruppen&shy;paket</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab 35 € pro Person</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">inkl. 20 € Spiel&shy;guthaben</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+Spielbank Potsdam — Events, Specials und Abendunterhaltung
+</h3>
+<p>
+In der Spielbank Potsdam verstehen wir Casino nicht nur als Spielangebot, sondern als Ort für Ausgehen, Treffen, Feiern und besondere Abende. Unsere Events entstehen aus der Atmosphäre des Hauses: Spielaktionen, Bar, Begegnungen, saisonale Anlässe und thematische Specials. Über das Jahr hinweg gestalten wir regelmäßige Aktionen, die den Besuch abwechslungsreich und lebendig machen. Dazu gehören Formate wie das Spielbank-Quiz, „Die Acht, die lacht!“, Mädelsabend, Glückspaket-Tag und besondere Aktionen zu Feiertagen oder speziellen Daten.
+</p>
+<br>
+<p>
+Unsere späte Abendatmosphäre entsteht durch die Kombination aus Spielbereichen, Bars, Drinks, Gesprächen und stilvollem Ambiente. Der Automatenbereich und die Bar sind bis 03:00 Uhr geöffnet, sodass ein Besuch auch als später Abendtermin ideal funktioniert. Für Gäste, die Unterhaltung nach Einbruch der Dunkelheit suchen, bieten wir eine elegante Alternative zum klassischen Clubbesuch. Bei uns können Gäste mit Freundinnen, Freunden oder Kolleg:innen spielen, anstoßen, sich unterhalten und den Abend in gepflegter Atmosphäre verlängern.
+</p>
+<br>
+<p>
+Besonders beliebt sind Gruppenbesuche und private Anlässe. Geburtstage, Junggesell:innenabschiede, Firmenabende und saisonale Feiern lassen sich bei uns individuell gestalten. Unsere Pakete verbinden Spielguthaben, Verzehrgutschein, Begrüßungsdrink und Spielerklärung zu einem unkomplizierten Erlebnis. So entsteht ein Abend, der auch für Gäste ohne Casinoerfahrung zugänglich, hochwertig und unterhaltsam bleibt.
+</p>
+<br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Regelmäßige Unterhaltung
+</h4>
+ <ul>
+            <li>• Glückspaket-Tag: 15 € zahlen und 20 € Spielvorteil erhalten.</li>
+            <li>• Mädelsabend: geselliger Abend mit Drinks, Spiel und Casinoatmosphäre.</li>
+            <li>• Spielbank-Quiz: Unterhaltung mit Wissen, Dynamik und gemeinsamer Spannung.</li>
+            <li>• „Die Acht, die lacht!“: Aktionsformat mit spielerischem Charakter.</li>
+            <li>• Groschen Gamble: Monatsaktion mit besonderer Spannung im Haus.</li>
+        </ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Saisonale Events
+</h4>
+ <ul>
+            <li>• Ostern: thematische Aktionen für einen besonderen Besuch im Frühling.</li>
+            <li>• Weihnachten: festliche Formate für Gruppen und Firmenabende.</li>
+            <li>• Freitag, der 13.: ein starker Anlass für einen außergewöhnlichen Casinoabend.</li>
+            <li>• Feiertagsspecials: wechselnde Aktionen zu ausgewählten Terminen.</li>
+        </ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Feiern und Gruppen
+</h4>
+ <ul>
+            <li>• Geburtstag: Paket ab 35 € pro Person mit Spielguthaben und Überraschung.</li>
+            <li>• JGA: gemeinsamer Abend mit Spiel, Drink, Gutschein und besonderem Rahmen.</li>
+            <li>• Firmenabend: individuell planbarer Besuch für Teams und Partner.</li>
+            <li>• Gutscheine: Erlebnisgeschenk mit frei wählbarem Wert.</li>
+        </ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Abend- und Nachtunterhaltung
+</h4>
+ <ul>
+            <li>• Bar bis spät: Drinks, Snacks und entspannte Pausen während des Besuchs.</li>
+            <li>• Automatenbereich bis 03:00 Uhr: flexible Unterhaltung für späte Gäste.</li>
+            <li>• Klassisches Spiel am Abend: Roulette und Black Jack in stilvollem Ambiente.</li>
+            <li>• Lounge-Charakter: gepflegte Atmosphäre als elegante Alternative zum Clubabend.</li>
+        </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+Spielbank Potsdam — Bars, Genuss und entspannter Aufenthalt
+</h3>
+<p>
+In der Spielbank Potsdam ist der Bar- und Genussbereich ein wichtiger Teil des gesamten Besuchs. Unsere Bars eignen sich für eine Pause zwischen den Spielen, für den Start in den Abend oder für ein Treffen mit Freundinnen, Freunden und Kolleg:innen. Das Getränkeangebot reicht von alkoholfreien Getränken über Cocktails bis zu frisch gezapftem Bier. Der Service im Haus sorgt dafür, dass Gäste den Abend angenehm, unkompliziert und im passenden Rhythmus genießen können.
+</p>
+<br>
+<p>
+Unsere Küche öffnet am Abend und ergänzt den Besuch mit Snacks, Klassikern und wechselnden Kreationen. Wer während des Aufenthalts eine kleine Stärkung möchte, findet bei uns ein passendes Angebot. Für Gruppen wird die Bar schnell zum Mittelpunkt des gemeinsamen Abends. Wir möchten, dass Drinks und Speisen die Casinoatmosphäre unterstützen und den Besuch noch komfortabler machen.
+</p>
+<br>
+<p>
+Für Gäste, die einen längeren Aufenthalt planen, passt unsere zentrale Lage ideal zu Hotels, Kultur, Spaziergängen und Abendprogramm. Der Besuch bei uns muss nicht nur aus Spiel bestehen: Gäste können Drinks genießen, eine Feier planen, Gutscheine verschenken oder mit einer Gruppe einen besonderen Abend erleben. Automatenbereich, Klassisches Spiel, Bar und Küche bilden zusammen ein stimmiges Freizeiterlebnis. In der Spielbank Potsdam wird ein Abend zu einem stilvollen Moment mit Komfort, Service und Atmosphäre.
+</p>
+<br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Bars
+</h4>
+ <ul>
+            <li>• Bar im Automatenbereich: ab 11:00 Uhr geöffnet und ideal für flexible Besuche.</li>
+            <li>• Bar im Klassischen Spielbereich: ab 18:00 Uhr geöffnet und passend zum Abendambiente.</li>
+            <li>• Getränkeauswahl: alkoholfreie Drinks, Cocktails, frisch gezapftes Bier und weitere Barangebote.</li>
+            <li>• Service am Platz: komfortable Begleitung während des Aufenthalts.</li>
+        </ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Küche und Snacks
+</h4>
+ <ul>
+            <li>• Küche ab 18:00 Uhr: ideal für eine kulinarische Pause am Abend.</li>
+            <li>• Snacks und Klassiker: praktische Auswahl für den kleinen Hunger.</li>
+            <li>• Wechselnde Kreationen: mal regional, mal mediterran, immer passend zum Casinoabend.</li>
+            <li>• Currywurst: beliebter Klassiker für einen unkomplizierten Genussmoment.</li>
+        </ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Erholung und Aufenthalt
+</h4>
+ <ul>
+            <li>• Raucherbereiche: separate Bereiche mit eigenem Spielangebot auf beiden Ebenen.</li>
+            <li>• Gruppenpakete: geeignet für Geburtstage, JGA und gemeinsame Abende.</li>
+            <li>• Gutscheine: Erlebnisgeschenk mit frei wählbarem Wert.</li>
+            <li>• Zentrale Lage: ideal kombinierbar mit Hotels, Abendessen und Stadtbesuch.</li>
+        </ul><br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="faq">
+            <div class="container">
+                <div class="faqBlock block">
+                    <h2 class="faqTitle title"><span>FAQ</span></h2>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="kann_ich_die_spielbank_potsdam_ohne_spielerfahrung_besuchen"/><label
+                            class="faqLabel" for="kann_ich_die_spielbank_potsdam_ohne_spielerfahrung_besuchen">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Kann ich die Spielbank Potsdam ohne Spielerfahrung besuchen? </span></label>
+                        <div class="faqContent">
+                            <p>Ja, bei uns sind Einsteiger herzlich willkommen. Auf Wunsch erklärt unser Team die Grundlagen von Roulette oder Black Jack verständlich und persönlich.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="kann_ich_einen_besuch_in_der_spielbank_potsdam_verschenken"/><label
+                            class="faqLabel" for="kann_ich_einen_besuch_in_der_spielbank_potsdam_verschenken">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Kann ich einen Besuch in der Spielbank Potsdam verschenken? </span></label>
+                        <div class="faqContent">
+                            <p>Ja, wir bieten Gutscheine mit frei wählbarem Wert an. Diese können im Rahmen der Bedingungen als Jetons oder Spielkredite genutzt werden.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="kann_ich_einen_junggesellinnenabschied_bei_euch_feiern"/><label
+                            class="faqLabel" for="kann_ich_einen_junggesellinnenabschied_bei_euch_feiern">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Kann ich einen Junggesell:innenabschied bei euch feiern? </span></label>
+                        <div class="faqContent">
+                            <p>Ja, wir bieten passende JGA-Formate mit Spielguthaben, Gutschein, Drink, Spielerklärung und besonderer Atmosphäre.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="ist_der_zugang_barrierefrei_mglich"/><label
+                            class="faqLabel" for="ist_der_zugang_barrierefrei_mglich">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Ist der Zugang barrierefrei möglich? </span></label>
+                        <div class="faqContent">
+                            <p>Ja, unsere Spielbank verfügt über einen zusätzlichen barrierefreien Zugang und alle Bereiche sind über einen Fahrstuhl erreichbar.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="kann_ich_die_spielbank_potsdam_schon_tagsber_besuchen"/><label
+                            class="faqLabel" for="kann_ich_die_spielbank_potsdam_schon_tagsber_besuchen">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Kann ich die Spielbank Potsdam schon tagsüber besuchen? </span></label>
+                        <div class="faqContent">
+                            <p>Ja, der Automatenbereich öffnet täglich ab 11:00 Uhr und eignet sich auch für einen Besuch vor dem Abendprogramm.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="welche_spielart_eignet_sich_fr_den_ersten_besuch"/><label
+                            class="faqLabel" for="welche_spielart_eignet_sich_fr_den_ersten_besuch">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Welche Spielart eignet sich für den ersten Besuch? </span></label>
+                        <div class="faqContent">
+                            <p>Für einen entspannten Einstieg bieten sich Automaten oder Multiroulette an. Wer klassisches Casinoflair erleben möchte, wählt Roulette oder Black Jack mit optionaler Spielerklärung.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="footerContainer">
+        <div class="footerTop">
+            <div class="footerLogoContainer"><a href="https://spielbank-potsdam-casino.com" aria-label="Main page"><img class="footer__logo"
+                                                                                                     src="_assets/images/1777296637-logo-navigatinsleiste-potsdam-typo.webp" alt="" width="140"
+                                                                                                     height="48" /></a></div>
+            <div class="footerPay">
+                <div class="payBlock"><img class="payElementGrey"
+                                           src="./assets/images/footer/payment/masterCard.svg" alt="MasterCard" /><img
+                        class="payElementColor" src="./assets/images/footer/payment/masterCard--color.svg"
+                        alt="MasterCard" title="MasterCard in Spielbank Potsdam" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/visa.svg"
+                                           alt="Visa" /><img class="payElementColor"
+                                                             src="./assets/images/footer/payment/visa--color.svg" alt="Visa" title="Visa in Spielbank Potsdam" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/neteller.svg"
+                                           alt="Neteller" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/neteller--color.svg" alt="Neteller" title="Neteller in Spielbank Potsdam" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/skrill.svg"
+                                           alt="Skrill" /><img class="payElementColor"
+                                                               src="./assets/images/footer/payment/skrill--color.svg" alt="Skrill" title="Skrill in Spielbank Potsdam" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/bitcoin.svg"
+                                           alt="Bitcoin" /><img class="payElementColor"
+                                                                src="./assets/images/footer/payment/bitcoin--color.svg" alt="Bitcoin" title="Bitcoin in Spielbank Potsdam" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/litecoin.svg"
+                                           alt="Litecoin" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/litecoin--color.svg" alt="Litecoin" title="Litecoin in Spielbank Potsdam" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/ethereum.svg"
+                                           alt="Etherium" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/ethereum--color.svg" alt="Etherium" title="Etherium in Spielbank Potsdam" /></div>
+            </div>
+        </div>
+        <div class="footerMiddle">
+            <div class="footerOperator">
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gpwa.svg" alt="GPWA" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gpwa--color.svg"
+                        alt="GPWA" title="GPWA in Spielbank Potsdam" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambleaware.svg" alt="Gamble Aware" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gambleaware--color.svg"
+                        alt="Gamble Aware" title="Gamble Aware in Spielbank Potsdam" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamcare.svg" alt="Game care" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamcare--color.svg"
+                        alt="Game care" title="Game care in Spielbank Potsdam" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambling-therapy.svg" alt="Gambling Therapy" /><img
+                        class="operatorElementColor"
+                        src="./assets/images/footer/operator/gambling-therapy--color.svg" alt="Gambling Therapy" title="Gambling Therapy in Spielbank Potsdam" />
+                </div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamban.svg" alt="Gamban" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamban--color.svg"
+                        alt="Gamban" title="Gamban in Spielbank Potsdam" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/betblocker.svg" alt="BetBlocker" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/betblocker--color.svg"
+                        alt="BetBlocker" title="BetBlocker in Spielbank Potsdam" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/itech_labs.svg" alt="ITech Labs" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/itech_labs--color.svg"
+                        alt="ITech Labs" title="ITech Labs in Spielbank Potsdam" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/ecogra.svg" alt="Ecogra" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/ecogra--color.svg"
+                        alt="Ecogra" title="Ecogra in Spielbank Potsdam" /></div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="footerBottomGroup">
+                <p class="footerBottomAge">18+</p>
+                <p class="footerBottomCopyright">Copyright © <span class="js-current-year"></span> Spielbank Potsdam </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var playButtonName = "#play-icon";
+    var informationOutlineName =
+        "#information-outline";
+    var topCasinoButtonText = "Bonus sichern";
+    var welcomeBonusText = "Willkommensbonus";
+    var bonusDetailsButtonText = "Bonus erhalten";
+    var playNowText = "Jetzt spielen";
+    var maximumAmountText = "Maximum amount";
+    var wagerText = "Wager";
+    var bonusCodeText = "Bonuscode";
+    var depositText = "";
+    var casinoName = "Spielbank Potsdam";
+</script>
+
+</body>
+</html>

@@ -1,0 +1,208 @@
+{
+    "globalSections": {
+        "styles": {
+            "bg": "#0A0A0A",
+            "lang-select-color": "#222829",
+            "bg-light": "#0A0A0A",
+            "welcome-bonus-bg": "#0A0A0A",
+            "top-games-hover-fg": "#ffffff",
+            "main-bg": "#18191D",
+            "text": "#ffffff",
+            "text-black": "#ffffff",
+            "table-head": "#855300",
+            "text-head": "#ffffff",
+            "hero-title-text": "#222829",
+            "welcome-bonus-text": "#12451A",
+            "yellow": "#855300",
+            "yellow-button": "#12451A",
+            "button-text": "#ffffff",
+            "main-button-text": "#ffffff",
+            "border-color": "#855300",
+            "casino-cards": "#0A0A0A",
+            "bonus-border-head": "#efefdc",
+            "bonus-border": "#855300",
+            "providers-back": "#0A0A0A",
+            "faq-label": "#0A0A0A",
+            "bg-footer": "#0A0A0A",
+            "copyright": "#e7e7d5",
+            "starColor": "#855300",
+            "baseFont": {
+                "value": "Roboto",
+                "isCustom": false
+            },
+            "primaryFont": {
+                "value": "Inter",
+                "isCustom": false
+            }
+        },
+        "icons": {
+            "icon192": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7004"
+        },
+        "header": {
+            "logo": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7006",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
+            "logoAlt": "Spielbank Potsdam Logo"
+        },
+        "nav": {
+            "signUp": "Registrieren",
+            "playNow": "Jetzt spielen"
+        },
+        "footer": {
+            "logo": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7007",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
+            "copyright": "Spielbank Potsdam"
+        }
+    },
+    "pages": [
+        {
+            "id": "de-de-de-DE",
+            "path": "\/",
+            "name": "Немецкий",
+            "languageCode": "de",
+            "regionCode": "DE",
+            "isDefault": true,
+            "sections": {
+                "seo": {
+                    "name": "Spielbank Potsdam",
+                    "title": "Spielbank Potsdam — Casinoabend mit Roulette, Black Jack und Automaten",
+                    "description": "Erleben Sie die Spielbank Potsdam mit Roulette, Black Jack, rund 100 Spielautomaten, Bars, Aktionen, Gutscheinen und stilvolle",
+                    "canonical": "spielbank-potsdam-casino.com",
+                    "ogImage": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7008",
+                    "ogImageWidth": 1200,
+                    "ogImageHeight": 630,
+                    "twitterSite": "spielbank-potsdam-casino.com",
+                    "favicon": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7009"
+                },
+                "hero": {
+                    "title": "Spielbank Potsdam — Roulette, Black Jack, Spielautomaten und Bar",
+                    "textDesktop": "Exklusives Willkommensangebot von",
+                    "textMobile": "Exklusives Willkommensangebot von",
+                    "playGame": "Spiel starten",
+                    "claimBonus": "Bonus sichern",
+                    "image": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7010",
+                    "imageSizeModifier": 15,
+                    "imageYModifier": -7,
+                    "imageXModifier": 0,
+                    "mobileImage": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7011",
+                    "mobileImageSizeModifier": 10,
+                    "mobileImageYModifier": 0,
+                    "mobileImageXModifier": 0
+                },
+                "topCasino": {
+                    "topCasinoButtonText": "Bonus sichern",
+                    "title": "Top-Casino",
+                    "allCasino": "Alle Casino",
+                    "welcomeBonusText": "Willkommensbonus"
+                },
+                "bonusDetails": {
+                    "title": "Bonusdetails",
+                    "getBonusButtonText": "Bonus erhalten",
+                    "maximumAmountText": "Maximum amount",
+                    "wagerText": "Wager",
+                    "bonusCodeText": "Bonuscode",
+                    "casino": "Casino",
+                    "bonuses": "Boni",
+                    "rate": "Frei Spins",
+                    "freeSpins": "Free Spins",
+                    "moreInfo": "Mehr Infos",
+                    "get": "Erhalten",
+                    "refresh": "Aktualisieren"
+                },
+                "advantages": {
+                    "title": "Vorteile",
+                    "advantagesBeforeText": "In der Spielbank Potsdam verbinden wir echtes Casinoflair mit persönlichem Service, Livespiel und modernen Automaten.",
+                    "items": [
+                        "Roulette mit Einsatz schon ab 1 €.",
+                        "Black Jack bereits ab 2 €.",
+                        "Rund 100 moderne Spielautomaten.",
+                        "Aktionsangebote mit attraktiven Spielvorteilen.",
+                        "Klassisches Spiel in stilvollem Ambiente.",
+                        "Freier Eintritt für erwachsene Gäste.",
+                        "Bar, Snacks und Service vor Ort."
+                    ],
+                    "advantagesAfterText": "Unsere Spielbank ist ideal für einen spontanen Besuch, einen besonderen Abend oder ein gemeinsames Erlebnis mit Drinks, Snacks und wechselnden Aktionen.",
+                    "knowMore": "Mehr erfahren",
+                    "appTitle": "Spielbank Potsdam App",
+                    "mobile": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7012",
+                    "imageSizeModifier": 0,
+                    "imageYModifier": 0,
+                    "imageXModifier": 0,
+                    "mobileAlt": "Spielbank Potsdam App",
+                    "mobileGooglePlayImageTitle": "Spielbank Potsdam App",
+                    "mobileIosImageTitle": "Spielbank Potsdam App"
+                },
+                "games": {
+                    "playNowText": "Jetzt spielen",
+                    "title": "Beliebte Spiele",
+                    "allGames": "Alle Spiele"
+                },
+                "about": {
+                    "history": {
+                        "title": "Über das Spielbank Potsdam",
+                        "description1": "In der Spielbank Potsdam setzen wir auf echtes Spielgefühl, klare Einsätze und ein stilvolles Ambiente. Unsere Spielbank überzeugt mit Livespiel, modernen Automaten und regelmäßigen Aktionsformaten.",
+                        "items": [
+                            "Roulette ab 1 €.",
+                            "Black Jack bis 200 €.",
+                            "Aktion: 15 € → 20 €."
+                        ],
+                        "description2": "In der Spielbank Potsdam schaffen wir ein besonderes Erlebnis aus klassischem Spiel, moderner Unterhaltung und stilvollem Ausgehen. Unsere Spielbank verbindet historisches Flair mit einer angenehmen, gepflegten Atmosphäre. Wir begrüßen Gäste, die Roulette, Black Jack oder Automatenspiel in einem echten Casinoambiente erleben möchten. ",
+                        "image": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7013",
+                        "imageSizeModifier": 0,
+                        "imageYModifier": 0,
+                        "imageXModifier": 0,
+                        "imageAlt": "History",
+                        "description3": "Bei uns stehen persönlicher Service, klare Abläufe und ein komfortabler Besuch im Mittelpunkt. Wer zum ersten Mal zu uns kommt, findet eine offene Atmosphäre und auf Wunsch hilfreiche Erklärungen zu den Spielen. An unseren Bars lässt sich der Abend entspannt begleiten, ob mit einem Drink, einem Snack oder einer kurzen Pause zwischen den Spielen. Für Gruppen und besondere Anlässe bieten wir einen passenden Rahmen mit Erlebnischarakter. Unsere Spielbank eignet sich für einen spontanen Besuch ebenso wie für einen geplanten Abend. Wir möchten, dass jeder Aufenthalt sich hochwertig, lebendig und angenehm anfühlt. Die Spielbank Potsdam steht für Casinoatmosphäre, Unterhaltung und persönliche Gastfreundschaft."
+                    }
+                },
+                "custom": {
+                    "customHtml": {
+                        "title": "Spielbank Potsdam: Öffnungszeiten, Zahlungsmethoden und Treueprogramm",
+                        "description": "<h3 style = \"font-weight: bold;font-size: 32px;\">\nSpielbank Potsdam — ein stilvoller Abend in unserer Spielbank\n<\/h3>\n<p>\nIn der Spielbank Potsdam verbinden wir klassisches Casinoambiente mit modernem Komfort, persönlichem Service und echter Abendunterhaltung. Unser Haus bietet eine besondere Atmosphäre, in der historische Architektur, gepflegte Räume und lebendige Spielmomente zusammenkommen. Der Automatenbereich ist täglich von 11:00 bis 03:00 Uhr geöffnet und eignet sich ideal für einen flexiblen Besuch im eigenen Rhythmus. Das Klassische Spiel beginnt am Abend: Roulette startet täglich ab 18:00 Uhr, Black Jack täglich ab 19:00 Uhr. Unsere Bars begleiten den Aufenthalt mit Getränken, Snacks und Service am Platz; die Bar im Automatenbereich öffnet ab 11:00 Uhr, die Bar im Klassischen Spielbereich ab 18:00 Uhr. Die Küche ist täglich ab 18:00 Uhr geöffnet und macht den Besuch bei uns auch kulinarisch angenehm. Für Gruppen, Geburtstage und besondere Anlässe bieten wir individuell gestaltbare Arrangements, Gutscheine und Erlebnisformate. Unsere zentrale Lage passt perfekt zu einem Abendprogramm mit Hotelaufenthalt, Dinner, Kultur oder Spaziergang. Über das Jahr hinweg gestalten wir Aktionen, Specials und saisonale Highlights, die den Casinobesuch abwechslungsreich machen. In der Spielbank Potsdam erleben Gäste Spiel, Bar, Events und Gastfreundschaft in einem hochwertigen Rahmen. Wir möchten, dass jeder Besuch bei uns komfortabel, stilvoll und besonders bleibt.\n<\/p>\n<br>\n<table style=\"width: 100%; border-collapse: collapse; margin: 20px auto; font-family: sans-serif; color: #ffffff;font-size:14px\">\n  <thead>\n    <tr style=\"background-color: #855300;\">\n      <th style=\"border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;\">Zone<\/th>\n      <th style=\"border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;\">Tage<\/th>\n      <th style=\"border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;\">Zeit<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\"><strong>Auto&shy;maten&shy;\nbereich<\/strong><\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">täglich<\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">11:00–03:00 Uhr<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\"><strong>Zusätz&shy;liche Auto&shy;maten im oberen Bereich<\/strong><\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">täglich<\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">ab 18:00 Uhr<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\"><strong>Roulette<\/strong><\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">täglich<\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">ab 18:00 Uhr<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\"><strong>Black Jack<\/strong><\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">täglich<\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">ab 19:00 Uhr<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\"><strong>Klassis&shy;ches Spiel<\/strong><\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">Sonntag–Donner&shy;stag<\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">18:00–02:00 Uhr<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\"><strong>Klassis&shy;ches Spiel<\/strong><\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">Freitag, Samstag und vor Feier&shy;tagen<\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">18:00–03:00 Uhr<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n<br>\n<h3 style = \"font-weight: bold;font-size: 32px;\">\nSpielbank Potsdam — Service, Zahlung und Gewinnauszahlung\n<\/h3>\n<p>\nIn der Spielbank Potsdam legen wir großen Wert auf aufmerksamen Service, klare Abläufe und eine angenehme Gästebetreuung. Unser Team begleitet den Besuch professionell, beantwortet Fragen zu den Spielbereichen und hilft Gästen, sich schnell zurechtzufinden. Wer Roulette oder Black Jack neu kennenlernen möchte, kann auf Wunsch eine persönliche Spielerklärung erhalten. So schaffen wir eine Atmosphäre, in der Einsteiger und erfahrene Gäste ihren Abend sicher, entspannt und gut informiert genießen können.\n<\/p>\n<br>\n<p>\nDie Hauptsprache in unserer Spielbank ist Deutsch, und unsere Mitarbeitenden achten auf eine verständliche, freundliche und respektvolle Kommunikation. Gerade im Klassischen Spiel sind klare Ansagen, ruhige Abläufe und präzise Erklärungen wichtig. Wir möchten, dass sich Gäste bei jedem Schritt gut begleitet fühlen, vom Empfang über die Spielauswahl bis zum Besuch an der Bar. Unser Service verbindet Casinoroutine mit persönlicher Aufmerksamkeit.\n<\/p>\n<br>\n<p>\nIn der Spielbank Potsdam wird in Euro gespielt. Vor Ort akzeptieren wir Barzahlung und Gutscheine, die je wir Barzahlung und Gutscheine, die je nach Angebot als Jetons oder Spielkredite eingesetzt werden können. Ein Geldautomat befindet sich direkt im Gebäude und macht den Besuch besonders unkompliziert. Für den Spielbetrieb ist Bargeld die zentrale und praktische Zahlungsform, während Gutscheine eine attraktive Möglichkeit für Geschenke, Gruppenbesuche und besondere Abende bieten.\n<\/p>\n<br>\n<p>\nGewinne werden je nach Spielbereich über die Kasse, über Jetons oder automatisch im jeweiligen Spielsystem abgewickelt. Beim Multiroulette werden Gewinne direkt dem Platz am Automaten gutgeschrieben, was den Ablauf schnell und komfortabel macht. Im Klassischen Spiel erfolgt die Auszahlung transparent über Jetons und die zuständigen Kassenabläufe. Für reguläre Gäste werden Glücksspielgewinne in der Regel ohne Steuerabzug ausgezahlt; besondere professionelle Konstellationen sollten individuell mit fachlicher Beratung geprüft werden.\n<\/p>\n<br>\n\n<h3 style = \"font-weight: bold;font-size: 32px;\">\nSpielbank Potsdam — Besuchsregeln und komfortable Anreise\n<\/h3>\n<p>\nIn der Spielbank Potsdam begrüßen wir Gäste, die einen stilvollen, sicheren und angenehmen Casinoabend erleben möchten. Der Eintritt in unsere Spielbank ist frei und der Zutritt ist für erwachsene Gäste mit gültigem Personalausweis oder Reisepass möglich. Wir achten auf eine gepflegte Atmosphäre, deshalb passt ordentliche Kleidung besonders gut zu unserem Haus. Im Automatenbereich ist gepflegte Freizeitkleidung ideal. Für das Klassische Spiel empfehlen wir einen eleganteren Auftritt mit Sakko, Hemd oder Poloshirt, langen Hosen und geschlossenen Schuhen. Kopfbedeckungen wie Caps oder Mützen werden im Spielbereich nicht getragen, ausgenommen sind religiöse oder medizinische Gründe. Für Jacken, Mäntel und größere Taschen stehen passende Garderobenmöglichkeiten zur Verfügung. Auf beiden Ebenen bieten wir separate Raucherbereiche mit eigenem Spielangebot. Unsere Räume sind klar organisiert, gut erreichbar und auf einen komfortablen Besuch ausgelegt. Mit dem Auto erreichen Gäste uns bequem, und in der näheren Umgebung stehen Parkmöglichkeiten zur Verfügung. Auch mit öffentlichen Verkehrsmitteln ist unsere Spielbank gut angebunden. Wir möchten, dass der Besuch bereits bei der Ankunft entspannt beginnt.\n<\/p>\n<br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nZutritt\n<\/h4>\n <ul>\n            <li>• Der Eintritt in die Spielbank Potsdam ist frei.<\/li>\n            <li>• Der Zutritt ist ab 18 Jahren möglich.<\/li>\n            <li>• Ein gültiger Personalausweis oder Reisepass ist erforderlich.<\/li>\n            <li>• Der Besuch ist auch ohne Spielteilnahme möglich, etwa für Bar, Atmosphäre und Unterhaltung.<\/li>\n        <\/ul><br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nDresscode\n<\/h4>\n <ul>\n            <li>• Im Automatenbereich passt gepflegte Freizeitkleidung ideal.<\/li>\n            <li>• Im Klassischen Spiel empfehlen wir Sakko, Hemd oder Poloshirt.<\/li>\n            <li>• Lange Hosen und geschlossene Schuhe runden den eleganten Casinoauftritt ab.<\/li>\n            <li>• Kopfbedeckungen werden nicht getragen, außer aus religiösen oder medizinischen Gründen.<\/li>\n        <\/ul><br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nKomfort im Haus\n<\/h4>\n <ul>\n            <li>• Separate Raucherbereiche stehen auf beiden Ebenen zur Verfügung.<\/li>\n            <li>• Garderobenmöglichkeiten erleichtern den Besuch mit Jacken, Mänteln und größeren Taschen.<\/li>\n            <li>• Unser Team unterstützt Gäste bei Fragen zu Spiel, Service und Orientierung.<\/li>\n            <li>• Die Atmosphäre bleibt gepflegt, respektvoll und angenehm für alle Gäste.<\/li>\n        <\/ul><br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nAnreise und Parken\n<\/h4>\n <ul>\n            <li>• Unsere Spielbank liegt zentral und ist bequem erreichbar.<\/li>\n            <li>• In der näheren Umgebung befinden sich Parkmöglichkeiten.<\/li>\n            <li>• Anfallende Parkgebühren können gemäß den Bedingungen der Spielbank erstattet werden.<\/li>\n            <li>• Mit öffentlichen Verkehrsmitteln erreichen Gäste uns komfortabel und gehen nur wenige Minuten zu Fuß.<\/li>\n        <\/ul><br>\n\n<h3 style = \"font-weight: bold;font-size: 32px;\">\nSpielbank Potsdam — Vorteile, Aktionen und besondere Gästeangebote\n<\/h3>\n<p>\nIn der Spielbank Potsdam gestalten wir Gästebindung über regelmäßige Aktionen, Gutscheine, Gruppenpakete und persönlichen Service. Unser Vorteilskonzept ist bewusst klar, greifbar und direkt mit dem Erlebnis vor Ort verbunden. Gäste profitieren von Aktionsformaten, bei denen der Besuch noch abwechslungsreicher wird. Ein bekanntes Beispiel ist der Glückspaket-Tag: Für 15 € erhalten Gäste 20 € für das Automatenspiel in Promokrediten oder für das Klassische Spiel in Glücksjetons. Für Gruppen, Geburtstage und Junggesell:innenabschiede bieten wir Pakete ab 35 € pro Person mit Spielguthaben, Verzehrgutschein und Begrüßungsgetränk. Gutscheine mit frei wählbarem Wert können als Jetons oder Spielkredite eingesetzt werden. Einsteiger profitieren zusätzlich von einer kostenlosen Spielerklärung zu Roulette oder Black Jack, abhängig vom Gästeaufkommen. Wir setzen auf unkomplizierte Vorteile, die direkt im Casinoabend spürbar werden. Einzelne Aktionen können je nach Datum, Verfügbarkeit und Anlass variieren. Für private Feiern, Firmenabende und besondere Anlässe entwickeln wir passende Besuchsformate. So wird der Aufenthalt in der Spielbank Potsdam zu einem Erlebnis mit Spiel, Service, Bar und Atmosphäre. Wir möchten Gästen bei jedem Besuch ein besonderes Gefühl von Wertschätzung und Unterhaltung bieten.\n<\/p>\n<br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nTeilnahmebedingungen\n<\/h4>\n <ul>\n            <li>• Der Zutritt und die Teilnahme an Spielangeboten sind ab 18 Jahren möglich.<\/li>\n            <li>• Ein gültiger Personalausweis oder Reisepass ist erforderlich.<\/li>\n            <li>• Aktionen finden direkt vor Ort in unserer Spielbank statt.<\/li>\n            <li>• Einzelne Angebote gelten nach Verfügbarkeit und zu den jeweiligen Aktionsbedingungen.<\/li>\n            <li>• Gutscheine können im Rahmen der Casinoregeln als Jetons oder Spielkredite genutzt werden.<\/li>\n        <\/ul><br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nVorteilsstufen nach Besuchsart\n<\/h4>\n <ul>\n            <li>• Erstbesuch: freier Eintritt, Orientierung im Haus und auf Wunsch Spielerklärung.<\/li>\n            <li>• Aktionsbesuch: Teilnahme an Formaten wie 15 € Einsatz für 20 € Spielvorteil.<\/li>\n            <li>• Gruppenbesuch: Pakete ab 35 € pro Person mit Spielguthaben, Verzehrgutschein und Drink.<\/li>\n            <li>• Feierbesuch: individuelle Arrangements für Geburtstag, JGA oder Firmenabend.<\/li>\n            <li>• Gutscheinbesuch: frei wählbarer Gutscheinwert für Jetons oder Automatenspielkredite.<\/li>\n        <\/ul><br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nBoni und Vorteile\n<\/h4>\n <ul>\n            <li>• 20 € für 15 € beim Glückspaket-Tag: nutzbar für Automatenspiel oder Klassisches Spiel.<\/li>\n            <li>• 20 € Spielguthaben im Gruppenpaket: ein attraktiver Start in den Casinoabend.<\/li>\n            <li>• 10 € Verzehrgutschein: ideal für Drinks, Snacks und eine angenehme Pause.<\/li>\n            <li>• Begrüßungscocktail: ein stilvoller Auftakt für ausgewählte Gruppenangebote.<\/li>\n            <li>• Überraschung für Geburtstagskind oder Hauptperson beim JGA: ein persönliches Highlight.<\/li>\n            <li>• Kostenlose Spielerklärung: verständlicher Einstieg in Black Jack oder Roulette.<\/li>\n            <li>• Gutschein mit Wunschwert: flexible Geschenkidee für einen besonderen Besuch.<\/li>\n        <\/ul><br>"
+                    }
+                },
+                "softwareProviders": {
+                    "title": "Softwareanbieter"
+                },
+                "custom_2": {
+                    "customHtml_2": {
+                        "title": "Unterhaltung und Gaming im Spielbank Potsdam",
+                        "description": "<h3 style = \"font-weight: bold;font-size: 32px;\">\nSpielbank Potsdam — Aktionen, Spielvorteile und besondere Angebote\n<\/h3>\n<p>\nIn der Spielbank Potsdam schaffen wir regelmäßig zusätzliche Gründe für einen Besuch: Spielaktionen, Themenabende, saisonale Highlights und besondere Gruppenangebote. Unsere Aktionen sind direkt mit dem Erlebnis vor Ort verbunden und machen den Casinoabend noch abwechslungsreicher. Ein zentrales Angebot ist der Glückspaket-Tag, bei dem 15 € zu 20 € Spielvorteil werden. Gäste können diesen Vorteil für das Automatenspiel in Promokrediten oder für das Klassische Spiel in Glücksjetons nutzen. Für Gruppen bieten wir Arrangements ab 35 € pro Person mit Spielguthaben, Verzehrgutschein, Begrüßungsgetränk und Spielerklärung. Geburtstagsgäste profitieren von einem besonderen Rahmen und einer zusätzlichen Überraschung für das Geburtstagskind. Auch Junggesell:innenabschiede lassen sich bei uns mit Spiel, Bar und Feieratmosphäre verbinden. Gutscheine mit Wunschwert machen den Casinobesuch zu einem flexiblen Geschenk. Über das Jahr hinweg gestalten wir Monatsaktionen, Feiertagsspecials und Themenformate. Dazu zählen Formate wie das Spielbank-Quiz, „Die Acht, die lacht!“, Mädelsabend und besondere Aktionen zu saisonalen Anlässen. Wir verbinden Spiel, Drinks, Service und Atmosphäre zu einem Abend mit Erlebnischarakter. Unser Ziel ist ein Besuch, der sich lebendig, hochwertig und besonders anfühlt.\n<\/p>\n<br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nSpielaktionen\n<\/h4>\n <ul>\n            <li>• Glückspaket-Tag — 15 € zahlen und 20 € Spielvorteil erhalten.<\/li>\n            <li>• Promokredite für Automatenspiel: ideal für einen dynamischen Start an modernen Geräten.<\/li>\n            <li>• Glücksjetons für Klassisches Spiel: passend für Roulette oder Black Jack.<\/li>\n            <li>• Spielbank-Quiz: Unterhaltung, Wissen und Casinoatmosphäre in einem Format.<\/li>\n            <li>• „Die Acht, die lacht!“: ein Aktionsformat mit spielerischem Charakter.<\/li>\n        <\/ul><br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nGruppen- und Feierpakete\n<\/h4>\n <ul>\n            <li>• Geburtstagspaket ab 35 € pro Person mit 20 € Spielguthaben.<\/li>\n            <li>• 10 € Verzehrgutschein im Paket: ideal für Drinks und Snacks.<\/li>\n            <li>• Begrüßungscocktail: ein stilvoller Auftakt für den gemeinsamen Abend.<\/li>\n            <li>• Spielerklärung zu Black Jack oder Roulette: verständlicher Einstieg für Gruppen.<\/li>\n            <li>• Überraschung für das Geburtstagskind: persönliches Extra für den Anlass.<\/li>\n        <\/ul><br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nSaisonale Highlights\n<\/h4>\n <ul>\n            <li>• Ostern: thematische Aktionen für einen besonderen Frühjahrsbesuch.<\/li>\n            <li>• Weihnachten: festliche Formate für Gruppen, Teams und gemeinsame Abende.<\/li>\n            <li>• Freitag, der 13.: ein passender Anlass für ein besonderes Spielbank-Erlebnis.<\/li>\n            <li>• Mädelsabend: geselliger Abend mit Drinks, Spiel und Atmosphäre.<\/li>\n        <\/ul><br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nGutscheine\n<\/h4>\n <ul>\n            <li>• Gutschein mit Wunschwert: flexibel als Jetons oder Spielkredite einsetzbar.<\/li>\n            <li>• Geschenkidee ab 18 Jahren: ideal für Erlebnisgeschenke statt klassischer Präsente.<\/li>\n            <li>• Einlösbar für einen besonderen Besuch: passend für Einzelgäste, Paare oder Gruppen.<\/li>\n        <\/ul><br>\n\n<h3 style = \"font-weight: bold;font-size: 32px;\">\nSpielbank Potsdam — beliebte Spiele in unserer Spielbank\n<\/h3>\n<p>\nIn der Spielbank Potsdam bieten wir eine attraktive Kombination aus Klassischem Spiel und modernem Automatenspiel. Unsere Gäste können den Spielstil wählen, der am besten zu ihrem Abend passt. Im Klassischen Spiel sind Roulette und Black Jack besonders beliebt, weil sie echtes Casinoflair, Live-Atmosphäre und persönliche Spannung verbinden. Roulette begeistert mit klaren Setzmöglichkeiten, der ikonischen Kugel und dem besonderen Moment jeder Drehung. Black Jack überzeugt durch Kartenspannung, Entscheidungsmomente und die Nähe zum Spielgeschehen. Im Automatenbereich erleben Gäste ein breites Angebot moderner Geräte mit unterschiedlichen Themen und Spielabläufen. Mit Herstellern wie EGT, Merkur und Novomatic setzen wir auf Vielfalt und zeitgemäße Unterhaltung. Besonders interessant ist auch Multiroulette, die elektronische Roulette-Variante mit echtem Kessel und bequemer Bedienung per Touchscreen. Wer neu bei uns ist, kann auf Wunsch eine verständliche Spielerklärung erhalten. So bleibt der Einstieg angenehm und der Abend gut strukturiert. Jede Spielart ist bei uns Teil eines Gesamterlebnisses aus Service, Bar, Atmosphäre und Unterhaltung. Wir möchten Gästen ein Casinoerlebnis bieten, das klassisch, modern und komfortabel zugleich ist.\n<\/p>\n<br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nKlassisches Spiel\n<\/h4>\n <ul>\n            <li>• Roulette: der berühmte Casinoklassiker mit Einsätzen auf Zahlen, Farben und Chancen.<\/li>\n            <li>• Black Jack: beliebtes Kartenspiel mit Spannung, Entscheidungen und Nähe zum Spieltisch.<\/li>\n            <li>• Livespiel: authentische Atmosphäre mit Croupiers, Jetons und klassischem Ablauf.<\/li>\n        <\/ul><br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nAutomatenspiel\n<\/h4>\n <ul>\n            <li>• Rund 100 Spielautomaten: moderne Geräte mit vielfältigen Themen und Spielrhythmen.<\/li>\n            <li>• EGT, Merkur und Novomatic: bekannte Hersteller für abwechslungsreiches Automatenspiel.<\/li>\n            <li>• Zusätzliche Automaten im oberen Bereich: mehr Auswahl am Abend.<\/li>\n        <\/ul><br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nMultiroulette\n<\/h4>\n <ul>\n            <li>• Elektronisches Roulette: klassisches Spielprinzip mit echtem Kessel.<\/li>\n            <li>• Touchscreen-Bedienung: Einsätze werden bequem direkt am Platz gewählt.<\/li>\n            <li>• Automatische Gewinnbuchung: Gewinne werden direkt dem Platz am Multiroulette gutgeschrieben.<\/li>\n        <\/ul><br>\n\n<h3 style = \"font-weight: bold;font-size: 32px;\">\nSpielbank Potsdam — Mindesteinsätze und Höchsteinsätze\n<\/h3>\n<p>\nIn der Spielbank Potsdam setzen wir auf klare und verständliche Einsatzstrukturen. Roulette beginnt bereits bei 1 €, Black Jack bei 2 €. So können Gäste den Casinoabend nach eigenem Spielstil gestalten, vom ersten Kennenlernen bis zum intensiveren Besuch im Klassischen Spiel. Der Automatenbereich ergänzt das Angebot mit modernen Geräten und flexiblem Spielrhythmus.\n<\/p>\n<br>\n<table style=\"width: 100%; border-collapse: collapse; margin: 20px auto; font-family: sans-serif; color: #ffffff;font-size:14px\">\n  <thead>\n    <tr style=\"background-color: #855300;\">\n      <th style=\"border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;\">Spiel oder Bereich<\/th>\n      <th style=\"border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;\">Mindest&shy;einsatz<\/th>\n      <th style=\"border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;\">Höchst&shy;einsatz<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\"><strong>Roulette<\/strong><\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">1 €<\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">100 € auf Plein<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\"><strong>Black Jack<\/strong><\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">2 €<\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">200 €<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\"><strong>Multi&shy;roulette<\/strong><\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">je nach Platz und Einstellung<\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">gemäß Auto&shy;matenein&shy;stellung<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\"><strong>Auto&shy;maten&shy;spiel<\/strong><\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">je nach Gerät<\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">gemäß Gerät<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\"><strong>Glück&shy;spaket-Tag<\/strong><\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">15 € Teilna&shy;hme<\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">20 € Spiel&shy;vorteil<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\"><strong>Gruppen&shy;paket<\/strong><\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">ab 35 € pro Person<\/td>\n      <td style=\"border: 1px solid #ffffff; padding: 10px;\">inkl. 20 € Spiel&shy;guthaben<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n\n<br>\n\n<h3 style = \"font-weight: bold;font-size: 32px;\">\nSpielbank Potsdam — Events, Specials und Abendunterhaltung\n<\/h3>\n<p>\nIn der Spielbank Potsdam verstehen wir Casino nicht nur als Spielangebot, sondern als Ort für Ausgehen, Treffen, Feiern und besondere Abende. Unsere Events entstehen aus der Atmosphäre des Hauses: Spielaktionen, Bar, Begegnungen, saisonale Anlässe und thematische Specials. Über das Jahr hinweg gestalten wir regelmäßige Aktionen, die den Besuch abwechslungsreich und lebendig machen. Dazu gehören Formate wie das Spielbank-Quiz, „Die Acht, die lacht!“, Mädelsabend, Glückspaket-Tag und besondere Aktionen zu Feiertagen oder speziellen Daten.\n<\/p>\n<br>\n<p>\nUnsere späte Abendatmosphäre entsteht durch die Kombination aus Spielbereichen, Bars, Drinks, Gesprächen und stilvollem Ambiente. Der Automatenbereich und die Bar sind bis 03:00 Uhr geöffnet, sodass ein Besuch auch als später Abendtermin ideal funktioniert. Für Gäste, die Unterhaltung nach Einbruch der Dunkelheit suchen, bieten wir eine elegante Alternative zum klassischen Clubbesuch. Bei uns können Gäste mit Freundinnen, Freunden oder Kolleg:innen spielen, anstoßen, sich unterhalten und den Abend in gepflegter Atmosphäre verlängern.\n<\/p>\n<br>\n<p>\nBesonders beliebt sind Gruppenbesuche und private Anlässe. Geburtstage, Junggesell:innenabschiede, Firmenabende und saisonale Feiern lassen sich bei uns individuell gestalten. Unsere Pakete verbinden Spielguthaben, Verzehrgutschein, Begrüßungsdrink und Spielerklärung zu einem unkomplizierten Erlebnis. So entsteht ein Abend, der auch für Gäste ohne Casinoerfahrung zugänglich, hochwertig und unterhaltsam bleibt.\n<\/p>\n<br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nRegelmäßige Unterhaltung\n<\/h4>\n <ul>\n            <li>• Glückspaket-Tag: 15 € zahlen und 20 € Spielvorteil erhalten.<\/li>\n            <li>• Mädelsabend: geselliger Abend mit Drinks, Spiel und Casinoatmosphäre.<\/li>\n            <li>• Spielbank-Quiz: Unterhaltung mit Wissen, Dynamik und gemeinsamer Spannung.<\/li>\n            <li>• „Die Acht, die lacht!“: Aktionsformat mit spielerischem Charakter.<\/li>\n            <li>• Groschen Gamble: Monatsaktion mit besonderer Spannung im Haus.<\/li>\n        <\/ul><br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nSaisonale Events\n<\/h4>\n <ul>\n            <li>• Ostern: thematische Aktionen für einen besonderen Besuch im Frühling.<\/li>\n            <li>• Weihnachten: festliche Formate für Gruppen und Firmenabende.<\/li>\n            <li>• Freitag, der 13.: ein starker Anlass für einen außergewöhnlichen Casinoabend.<\/li>\n            <li>• Feiertagsspecials: wechselnde Aktionen zu ausgewählten Terminen.<\/li>\n        <\/ul><br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nFeiern und Gruppen\n<\/h4>\n <ul>\n            <li>• Geburtstag: Paket ab 35 € pro Person mit Spielguthaben und Überraschung.<\/li>\n            <li>• JGA: gemeinsamer Abend mit Spiel, Drink, Gutschein und besonderem Rahmen.<\/li>\n            <li>• Firmenabend: individuell planbarer Besuch für Teams und Partner.<\/li>\n            <li>• Gutscheine: Erlebnisgeschenk mit frei wählbarem Wert.<\/li>\n        <\/ul><br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nAbend- und Nachtunterhaltung\n<\/h4>\n <ul>\n            <li>• Bar bis spät: Drinks, Snacks und entspannte Pausen während des Besuchs.<\/li>\n            <li>• Automatenbereich bis 03:00 Uhr: flexible Unterhaltung für späte Gäste.<\/li>\n            <li>• Klassisches Spiel am Abend: Roulette und Black Jack in stilvollem Ambiente.<\/li>\n            <li>• Lounge-Charakter: gepflegte Atmosphäre als elegante Alternative zum Clubabend.<\/li>\n        <\/ul><br>\n\n<h3 style = \"font-weight: bold;font-size: 32px;\">\nSpielbank Potsdam — Bars, Genuss und entspannter Aufenthalt\n<\/h3>\n<p>\nIn der Spielbank Potsdam ist der Bar- und Genussbereich ein wichtiger Teil des gesamten Besuchs. Unsere Bars eignen sich für eine Pause zwischen den Spielen, für den Start in den Abend oder für ein Treffen mit Freundinnen, Freunden und Kolleg:innen. Das Getränkeangebot reicht von alkoholfreien Getränken über Cocktails bis zu frisch gezapftem Bier. Der Service im Haus sorgt dafür, dass Gäste den Abend angenehm, unkompliziert und im passenden Rhythmus genießen können.\n<\/p>\n<br>\n<p>\nUnsere Küche öffnet am Abend und ergänzt den Besuch mit Snacks, Klassikern und wechselnden Kreationen. Wer während des Aufenthalts eine kleine Stärkung möchte, findet bei uns ein passendes Angebot. Für Gruppen wird die Bar schnell zum Mittelpunkt des gemeinsamen Abends. Wir möchten, dass Drinks und Speisen die Casinoatmosphäre unterstützen und den Besuch noch komfortabler machen.\n<\/p>\n<br>\n<p>\nFür Gäste, die einen längeren Aufenthalt planen, passt unsere zentrale Lage ideal zu Hotels, Kultur, Spaziergängen und Abendprogramm. Der Besuch bei uns muss nicht nur aus Spiel bestehen: Gäste können Drinks genießen, eine Feier planen, Gutscheine verschenken oder mit einer Gruppe einen besonderen Abend erleben. Automatenbereich, Klassisches Spiel, Bar und Küche bilden zusammen ein stimmiges Freizeiterlebnis. In der Spielbank Potsdam wird ein Abend zu einem stilvollen Moment mit Komfort, Service und Atmosphäre.\n<\/p>\n<br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nBars\n<\/h4>\n <ul>\n            <li>• Bar im Automatenbereich: ab 11:00 Uhr geöffnet und ideal für flexible Besuche.<\/li>\n            <li>• Bar im Klassischen Spielbereich: ab 18:00 Uhr geöffnet und passend zum Abendambiente.<\/li>\n            <li>• Getränkeauswahl: alkoholfreie Drinks, Cocktails, frisch gezapftes Bier und weitere Barangebote.<\/li>\n            <li>• Service am Platz: komfortable Begleitung während des Aufenthalts.<\/li>\n        <\/ul><br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nKüche und Snacks\n<\/h4>\n <ul>\n            <li>• Küche ab 18:00 Uhr: ideal für eine kulinarische Pause am Abend.<\/li>\n            <li>• Snacks und Klassiker: praktische Auswahl für den kleinen Hunger.<\/li>\n            <li>• Wechselnde Kreationen: mal regional, mal mediterran, immer passend zum Casinoabend.<\/li>\n            <li>• Currywurst: beliebter Klassiker für einen unkomplizierten Genussmoment.<\/li>\n        <\/ul><br>\n\n<h4 style = \"font-weight: bold; font-size: 24px;\">\nErholung und Aufenthalt\n<\/h4>\n <ul>\n            <li>• Raucherbereiche: separate Bereiche mit eigenem Spielangebot auf beiden Ebenen.<\/li>\n            <li>• Gruppenpakete: geeignet für Geburtstage, JGA und gemeinsame Abende.<\/li>\n            <li>• Gutscheine: Erlebnisgeschenk mit frei wählbarem Wert.<\/li>\n            <li>• Zentrale Lage: ideal kombinierbar mit Hotels, Abendessen und Stadtbesuch.<\/li>\n        <\/ul><br>"
+                    }
+                },
+                "faq": {
+                    "title": "FAQ",
+                    "items": [
+                        {
+                            "title": "Kann ich die Spielbank Potsdam ohne Spielerfahrung besuchen?",
+                            "answer": "Ja, bei uns sind Einsteiger herzlich willkommen. Auf Wunsch erklärt unser Team die Grundlagen von Roulette oder Black Jack verständlich und persönlich."
+                        },
+                        {
+                            "title": "Kann ich einen Besuch in der Spielbank Potsdam verschenken?",
+                            "answer": "Ja, wir bieten Gutscheine mit frei wählbarem Wert an. Diese können im Rahmen der Bedingungen als Jetons oder Spielkredite genutzt werden."
+                        },
+                        {
+                            "title": "Kann ich einen Junggesell:innenabschied bei euch feiern?",
+                            "answer": "Ja, wir bieten passende JGA-Formate mit Spielguthaben, Gutschein, Drink, Spielerklärung und besonderer Atmosphäre."
+                        },
+                        {
+                            "title": "Ist der Zugang barrierefrei möglich?",
+                            "answer": "Ja, unsere Spielbank verfügt über einen zusätzlichen barrierefreien Zugang und alle Bereiche sind über einen Fahrstuhl erreichbar."
+                        },
+                        {
+                            "title": "Kann ich die Spielbank Potsdam schon tagsüber besuchen?",
+                            "answer": "Ja, der Automatenbereich öffnet täglich ab 11:00 Uhr und eignet sich auch für einen Besuch vor dem Abendprogramm."
+                        },
+                        {
+                            "title": "Welche Spielart eignet sich für den ersten Besuch?",
+                            "answer": "Für einen entspannten Einstieg bieten sich Automaten oder Multiroulette an. Wer klassisches Casinoflair erleben möchte, wählt Roulette oder Black Jack mit optionaler Spielerklärung."
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

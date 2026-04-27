@@ -1,0 +1,5 @@
+User-agent: * 
+Allow: / 
+Disallow: /casino/
+Host: https://spielbank-potsdam-casino.com/
+Sitemap: https://spielbank-potsdam-casino.com/sitemap.xml
